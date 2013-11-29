@@ -1,0 +1,64 @@
+anonymous class anonfun$1 extends runtime.AbstractFunction1$mcVI$sp, Serializable {
+  // fields:
+  
+  // methods
+  def apply(i: Int (INT)): Unit {
+  locals: value i
+  startBlock: 1
+  blocks: [1]
+  
+  1: 
+    2	THIS(Main$$anonfun$1)
+    2	LOAD_LOCAL(value i)
+    2	CALL_METHOD Main$$anonfun$1.apply$mcVI$sp (dynamic)
+    2	RETURN(UNIT)
+    
+  }
+  Exception handlers: 
+    
+  def apply$mcVI$sp(i: Int (INT)): Unit {
+  locals: value i
+  startBlock: 1
+  blocks: [1]
+  
+  1: 
+    2	LOAD_MODULE object Predef
+    2	LOAD_LOCAL(value i)
+    2	BOX INT
+    2	CALL_METHOD scala.Predef.println (dynamic)
+    2	RETURN(UNIT)
+    
+  }
+  Exception handlers: 
+    
+  def apply(v1: Object (REF(class Object))): Object {
+  locals: value v1
+  startBlock: 1
+  blocks: [1]
+  
+  1: 
+    2	THIS(Main$$anonfun$1)
+    2	LOAD_LOCAL(value v1)
+    2	UNBOX INT
+    2	CALL_METHOD Main$$anonfun$1.apply (dynamic)
+    2	LOAD_FIELD scala.runtime.BoxedUnit.UNIT
+    2	RETURN(REF(class Object))
+    
+  }
+  Exception handlers: 
+    
+  def <init>($outer: Main (REF(class Main))): anonfun$1 {
+  locals: value $outer
+  startBlock: 1
+  blocks: [1]
+  
+  1: 
+    2	THIS(Main$$anonfun$1)
+    2	CALL_METHOD scala.runtime.AbstractFunction1$mcVI$sp.<init> (super())
+    2	RETURN(UNIT)
+    
+  }
+  Exception handlers: 
+    
+  
+}

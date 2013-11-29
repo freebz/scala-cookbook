@@ -1,0 +1,30 @@
+class Main extends Object {
+  // fields:
+  
+  // methods
+  def <init>(): Main {
+  locals: 
+  startBlock: 1
+  blocks: [1]
+  
+  1: 
+    1	THIS(Main)
+    1	CALL_METHOD java.lang.Object.<init> (super())
+    ?	LOAD_MODULE object RichInt
+    2	LOAD_MODULE object Predef
+    2	CONSTANT(1)
+    2	CALL_METHOD scala.LowPriorityImplicits.intWrapper (dynamic)
+    2	CONSTANT(10)
+    ?	CALL_METHOD scala.runtime.RichInt.to$extension0 (dynamic)
+    2	NEW REF(anonymous class anonfun$1)
+    2	DUP(REF(anonymous class anonfun$1))
+    2	THIS(Main)
+    2	CALL_METHOD Main$$anonfun$1.<init> (static-instance)
+    2	CALL_METHOD scala.collection.immutable.Range.foreach$mVc$sp (dynamic)
+    2	RETURN(UNIT)
+    
+  }
+  Exception handlers: 
+    
+  
+}
